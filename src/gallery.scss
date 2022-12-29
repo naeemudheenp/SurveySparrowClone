@@ -1,0 +1,236 @@
+@media (min-width: 360px) and (max-width: 768px) {
+    .galleryParent{
+        margin-top: 4vh !important;
+        background-color: #5ECDAA;
+        min-height: 25vh;
+        margin:0px;
+        padding: 0px;
+        position:relative;
+        
+        padding: 2%;
+        width: 100vw;
+        
+       
+      
+    }
+    .galleryScroller{
+        margin-top: 3vh;
+        display:flex;
+        align-self: auto;
+        gap: 10px;
+    }
+    img{
+        border-radius: 8px;
+        
+    }
+    .galleryScroller>img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        
+    }
+    .slideShow{
+       
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-right: 2%;
+        padding-left: 1%;
+        
+    
+    }
+    .iconContainer{
+       
+        padding: 16% 0% 15% 0px;
+    }
+    .iconButton:hover{
+        transform: scale(1.1);
+    
+            
+    }
+    
+    
+    .galleryScroller>img{
+        animation: fadeIn 1s;
+    }
+    
+    @keyframes fadeIn {
+        0% { opacity: 0;
+       
+        transform: translateY(12em);
+        }
+       
+        
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+    .galleryParent{
+        margin-top: 4vh !important;
+        background-color: #5ECDAA;
+        min-height: 25vh;
+        margin:0px;
+        padding: 0px;
+        position:relative;
+        
+        padding: 2%;
+        width: 100vw;
+        
+       
+      
+    }
+    .galleryScroller{
+        margin-top: 3vh;
+        display:flex;
+        align-self: auto;
+        gap: 10px;
+    }
+    img{
+        border-radius: 8px;
+        
+    }
+    .galleryScroller>img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        
+    }
+    .slideShow{
+       
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-right: 2%;
+        padding-left: 1%;
+        
+    
+    }
+    .iconContainer{
+       
+        padding: 16% 0% 15% 0px;
+    }
+    .iconButton:hover{
+        transform: scale(1.1);
+    
+            
+    }
+    
+    
+    .galleryScroller>img{
+        animation: fadeIn 1s;
+    }
+    
+    @keyframes fadeIn {
+        0% { opacity: 0;
+       
+        transform: translateY(12em);
+        }
+       
+        
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+    
+    
+    
+    
+    
+
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*windows devices*/
+  @media only  screen and  (min-width:992px) {
+
+
+    .galleryParent{
+        background-color: #5ECDAA;
+        min-height: 600px;
+        margin:0px;
+        padding: 0px;
+        position:relative;
+        top:-200px;
+        padding: 6%;
+        
+       
+      
+    }
+    .galleryScroller{
+        margin-top: 60px;
+        display:flex;
+        align-self: auto;
+        gap: 10px;
+    }
+    img{
+        border-radius: 8px;
+        
+    }
+    .galleryScroller>img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        
+    }
+    .slideShow{
+       
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-right: 2%;
+        padding-left: 1%;
+        
+    
+    }
+    .iconContainer{
+       
+        padding: 16% 0% 15% 0px;
+    }
+    .iconButton:hover{
+        transform: scale(1.1);
+    
+            
+    }
+    
+    
+    .galleryScroller>img{
+        animation: fadeIn 1s;
+    }
+    
+    @keyframes fadeIn {
+        0% { opacity: 0;
+       
+        transform: translateY(12em);
+        }
+       
+        
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+    
+    
+    
+    
+    
+  }

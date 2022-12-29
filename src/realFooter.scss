@@ -1,0 +1,147 @@
+
+
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .footer {
+        position: relative;
+        
+        
+      
+        width: 100vw;
+        background-color: white;
+        color: black;
+        text-align: center;
+        z-index: -20;
+        min-height: 450px;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        text-align: center;
+       
+        
+      }
+    .footer-item{
+       right: 3vw;
+        display: flex;
+        flex-direction: column;
+        color:black;
+        text-align: left;
+        gap:2px;
+        
+    }
+    .footer-item>li,ul{
+        list-style-type: none;
+    }
+    .footer-item-ul-heading{
+        font-weight: bold;
+        margin: auto;
+        
+    }
+   
+
+}
+
+
+
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+
+    .footer {
+        position: relative;
+        
+        
+      
+        width: 100vw;
+        background-color: white;
+        color: black;
+        text-align: center;
+        z-index: -20;
+        min-height: 450px;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        text-align: center;
+       
+        
+      }
+    .footer-item{
+       right: 3vw;
+        display: flex;
+        flex-direction: column;
+        color:black;
+        text-align: left;
+        gap:2px;
+        
+    }
+    .footer-item>li,ul{
+        list-style-type: none;
+    }
+    .footer-item-ul-heading{
+        font-weight: bold;
+        margin: auto;
+        
+    }
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*windows devices*/
+  @media only  screen and  (min-width:992px) {
+
+    .footer {
+        position: relative;
+        left: 0;
+        top:-250px;
+      
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        z-index: -20;
+        min-height: 450px;
+        display: flex;
+        flex-direction: row;
+        padding: 8%;
+        text-align: center;
+        gap:60px;
+        margin-bottom: 0;
+      }
+    .footer-item{
+       
+        display: flex;
+        flex-direction: column;
+        color:black;
+        text-align: left;
+        gap:8px;
+        
+    }
+    .footer-item>li,ul{
+        list-style-type: none;
+    }
+    .footer-item-ul-heading{
+        font-weight: bold;
+        margin: auto;
+        margin-bottom: 6px;
+    }
+
+
+  }

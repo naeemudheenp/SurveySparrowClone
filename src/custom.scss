@@ -1,0 +1,413 @@
+$primaryColor:green;
+$bgColor:black;
+
+
+
+
+
+   /*mobile phones */
+@media (min-width: 360px) and (max-width: 768px) {
+
+  .fullnav{
+    width:auto;
+  }
+  .menuOptions{
+    display:flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  .main_img{
+    height:60px ;
+    width: 40vw !important ;
+    
+  }
+
+  .menuButton{
+    position: relative;
+    left: 20vw;
+    bottom: 3vw;
+    
+    display: inline;
+    visibility: visible;
+  }
+
+  .navBar_container{
+    background-color: white !important;
+   
+    display: flex;
+    flex-direction: column;
+    z-index: 25;
+    width: auto;
+   
+    
+}
+
+
+.navBar_container>div{
+  width: 100%;
+    margin:auto;
+    padding: 20px;
+    padding-bottom: 0%;
+    font-size: 30px;
+    margin-bottom:0px;
+}
+.navBar_container>div>img{
+  width: 100%;
+    margin:5px;
+    margin-bottom:0px;
+
+}
+.navBar_container>div>button{
+  width: 100%;
+   
+    border:none;
+    width: 20px;
+    height:100%;
+    margin:1px;
+    padding:20px;
+    margin-bottom: 0px ;
+    font-weight:bold;
+    background-color:transparent;
+    
+    
+}
+.navBar_container>div>button:hover{
+  width: 100%;
+    border-bottom: solid #19B885;
+}
+
+.login_buttons>button{
+  width: 80px !important;
+    border: solid #19B885 !important;
+    border-radius: 5px !important;
+    height:20% !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 19px !important;
+    color:#19B885;
+    
+}
+
+/* Popup container */
+.popup {
+position: relative;
+display: inline-block;
+cursor: pointer;
+width: 90vw;
+height:30vh;
+
+
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+visibility: hidden;
+width: 90vw;
+height:30vh;
+background-color: #555;
+color: #fff;
+text-align: left;
+border-radius: 6px;
+padding: 8px;
+position: absolute;
+z-index: 1;
+top: 125%;
+left: 0%;
+margin-right: 5%;
+margin-left: 0px;
+}
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+}
+
+}
+
+
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+
+    .fullnav{
+      width:auto;
+    }
+    .menuOptions{
+      display:flex;
+      flex-direction: column;
+      display: none;
+    }
+  
+    .main_img{
+      height:60px ;
+      width: 40vw !important ;
+      
+    }
+  
+    .menuButton{
+      position: relative;
+      left: 20vw;
+      bottom: 1vw;
+      
+      display: inline;
+      visibility: visible;
+    }
+  
+    .navBar_container{
+      background-color: white !important;
+     
+      display: flex;
+      flex-direction: column;
+      z-index: 25;
+      width: auto;
+     
+      
+  }
+  
+  
+  .navBar_container>div{
+    width: 100%;
+      margin:auto;
+      padding: 20px;
+      padding-bottom: 0%;
+      font-size: 30px;
+      margin-bottom:0px;
+  }
+  .navBar_container>div>img{
+    width: 100%;
+      margin:5px;
+      margin-bottom:0px;
+  
+  }
+  .navBar_container>div>button{
+    width: 100%;
+     
+      border:none;
+      width: 20px;
+      height:100%;
+      margin:1px;
+      padding:20px;
+      margin-bottom: 0px ;
+      font-weight:bold;
+      background-color:transparent;
+      
+      
+  }
+  .navBar_container>div>button:hover{
+    width: 100%;
+      border-bottom: solid #19B885;
+  }
+  
+  .login_buttons>button{
+    width: 80px !important;
+      border: solid #19B885 !important;
+      border-radius: 5px !important;
+      height:20% !important;
+      padding: 10px !important;
+      margin-bottom: 10px !important;
+      margin-left: 19px !important;
+      color:#19B885;
+      
+  }
+  
+  /* Popup container */
+  .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 90vw;
+  height:30vh;
+  
+  
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+  visibility: hidden;
+  width: 90vw;
+  height:30vh;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 0%;
+  margin-right: 5%;
+  margin-left: 0px;
+  }
+  
+  
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+  }
+  
+  
+  
+  
+  
+  
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*windows devices*/
+  @media only  screen and  (min-width:992px) {
+    
+    .main_img{
+      height:50px;
+      width:200px;
+    }
+
+    .mobileTextContainer{
+      display:flex;
+    }
+    .menuButton{
+      display: none;
+      visibility: hidden !important;
+    }
+  
+    .navBar_container{
+        background-color: #E7F8FD;
+        
+        display: flex;
+        z-index: 25;
+       
+        
+    }
+    
+    
+    .navBar_container>div{
+       
+        margin:auto;
+        padding: 20px;
+        padding-bottom: 0%;
+        font-size: 30px;
+        margin-bottom:0px;
+    }
+    .navBar_container>div>img{
+        margin:5px;
+        margin-bottom:0px;
+
+    }
+    .navBar_container>div>button{
+       
+        border:none;
+        width: 120px;
+        height:100%;
+        margin:5px;
+        padding:20px;
+        margin-bottom: 0px ;
+        font-weight:bold;
+        background-color:transparent;
+        
+        
+    }
+    .navBar_container>div>button:hover{
+        
+        border-bottom: solid #19B885;
+    }
+
+    .login_buttons>button{
+        
+        border: solid #19B885 !important;
+        border-radius: 5px !important;
+        height:20% !important;
+        padding: 10px !important;
+        margin-bottom: 10px !important;
+        color:#19B885;
+        
+    }
+
+    /* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 900px;
+    height:500px;
+    
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 600px;
+    height:400px;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 0%;
+    margin-right: 5%;
+    margin-left: 0px;
+  }
+  
+  
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+ 
+   }

@@ -1,0 +1,85 @@
+
+   /*mobile phones */
+   @media (min-width: 360px) and (max-width: 768px) {
+    .description{
+        display: block;
+        text-align: left;
+        position: relative;
+        padding: 5vw;
+        width: 90vw;
+        right: 14vw;
+        font-size: 15px;
+        font-weight: bold;
+        word-wrap:break-word;
+        
+    }
+    .DeviceFrame{
+       
+        display:block;
+        margin-right:100px;
+        
+        
+        
+        
+
+    }
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top:-20vw;
+    }
+    .toOrder{
+        order:"2"
+    }
+
+   }
+
+
+
+   
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .description{
+        display: inline-block;
+        text-align: left;
+        justify-content: left;
+        padding:8%;
+        margin:auto;
+        width:50%;
+        font-size :19px
+    }
+    .DeviceFrame{
+        margin-bottom:4%;
+        display:inline-block
+    }
+    
+       }
+
+
+   /*windows devices*/
+  @media only  screen and  (min-width:992px) {
+    .mainContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .description{
+        display: inline-block;
+        text-align: left;
+        justify-content: left;
+        padding:8%;
+        margin:auto;
+        width:50%;
+        font-size :19px
+    }
+    .DeviceFrame{
+        margin-bottom:4%;
+        display:inline-block
+    }
+  }

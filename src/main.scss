@@ -1,0 +1,446 @@
+
+
+/*mobile phones */
+@media (min-width: 360px) and (max-width: 768px) {
+
+  .textDoMore{
+    text-align:left;
+    margin:auto;
+    margin:auto;
+    position:relative;
+    left:7vw;
+    top:2vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+
+
+  .mobileFont{
+    font-size:12vw;
+    display: block;
+  }
+  .mobileTextContainer{
+    display: block;
+  }
+
+  .full_container{
+   
+    width: 100%;
+    background-color: #e7eefd;
+    
+    min-height: 60vh;
+    min-width: 100%;
+   
+  
+    display:flex;
+    flex-wrap: wrap;
+    text-align:center;
+    flex-direction: row;
+
+  
+    
+}
+
+.child_container{
+    position: relative;
+   
+    left:5%;
+    width: 100%;
+    background-color:white;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    min-height: 350px;
+    text-align:center;
+    box-shadow: 10px 10px 5px #F4F6F8;
+    z-index: 12;
+    width: 90vw;
+    
+
+
+    
+  
+   
+}
+
+
+.textContainer{
+   
+    text-align:center;
+    margin:auto;
+    font-weight: bold;
+   
+    color:black;
+    font-size:58px;
+    
+}
+
+.typeWriter{
+    padding:0 1%  1%;
+    border-radius: 6px;
+    margin-left:2%;
+    margin-right:2%;
+    background-color:black;
+    color:white;
+    font-size:58vw;
+    display: none;
+    
+}
+.line-break{
+    display:block;
+    width: 100%;
+    min-width: 100%;
+  }
+  .login_input{
+   background-color:transparent;
+   display: inline;
+ 
+    
+   
+  }
+  .inputMobile{
+    width:60vw !important;
+  }
+  .menu-div{
+    display:flex;
+    margin-top:3vh;
+    padding:5%;
+    position: relative;
+    right:  5vw;
+   
+    
+  }
+  .menu-div>button{
+    background-color:transparent;
+    border-radius: 6px;
+    display:inline-block;
+    border:none;
+    padding:1%;
+    min-width:28vw;
+    font-size:13px;
+    margin-left: 2%;
+    text-align:center;
+    font-weight: bold;
+    min-height: 5vh;
+    
+    
+
+  }
+
+  .menu-div>button:hover{
+    background-color:#F4F6F8;
+  }
+  
+  .circle{
+    display:inline-block;
+    margin-right:5%;
+    border:#19B885 solid;
+    height:5px;
+    width:5px;
+    border-radius:50%;
+    visibility:hidden;
+   
+
+  }
+  
+}
+
+
+
+
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+
+  .textDoMore{
+    text-align:left;
+    margin:auto;
+    margin:auto;
+    position:relative;
+    left:7vw;
+    top:2vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+
+
+  .mobileFont{
+    font-size:12vw;
+    display: block;
+  }
+  .mobileTextContainer{
+    display: block;
+  }
+
+  .full_container{
+   
+    width: 100%;
+    background-color: #e7eefd;
+    
+    min-height: 60vh;
+    min-width: 100%;
+   
+  
+    display:flex;
+    flex-wrap: wrap;
+    text-align:center;
+    flex-direction: row;
+
+  
+    
+}
+
+.child_container{
+    position: relative;
+   
+    left:5%;
+    width: 100%;
+    background-color:white;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    min-height: 350px;
+    text-align:center;
+    box-shadow: 10px 10px 5px #F4F6F8;
+    z-index: 12;
+    width: 90vw;
+    
+
+
+    
+  
+   
+}
+
+
+.textContainer{
+   
+    text-align:center;
+    margin:auto;
+    font-weight: bold;
+   
+    color:black;
+    font-size:58px;
+    
+}
+
+.typeWriter{
+    padding:0 1%  1%;
+    border-radius: 6px;
+    margin-left:2%;
+    margin-right:2%;
+    background-color:black;
+    color:white;
+    font-size:58vw;
+    display: none;
+    
+}
+.line-break{
+    display:block;
+    width: 100%;
+    min-width: 100%;
+  }
+  .login_input{
+   background-color:transparent;
+   display: inline;
+ 
+    
+   
+  }
+  .inputMobile{
+    width:60vw !important;
+  }
+  .menu-div{
+    display:flex;
+    margin-top:3vh;
+    padding:5%;
+    position: relative;
+    right:  5vw;
+   
+    
+  }
+  .menu-div>button{
+    background-color:transparent;
+    border-radius: 6px;
+    display:inline-block;
+    border:none;
+    padding:1%;
+    min-width:28vw;
+    font-size:13px;
+    margin-left: 2%;
+    text-align:center;
+    font-weight: bold;
+    min-height: 5vh;
+    
+    
+
+  }
+
+  .menu-div>button:hover{
+    background-color:#F4F6F8;
+  }
+  
+  .circle{
+    display:inline-block;
+    margin-right:5%;
+    border:#19B885 solid;
+    height:5px;
+    width:5px;
+    border-radius:50%;
+    visibility:hidden;
+   
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+  /*windows devices*/
+  @media only  screen and  (min-width:992px) {
+
+
+.textDoMore{
+  text-align:left;
+  margin:auto;
+  margin:auto;
+  position:relative;
+  left:55px;
+  top:55px;
+  font-size:48px;
+  font-weight:bold;
+
+}
+
+
+
+
+.full_container{
+   
+    width: 100%;
+    background-color: #E7F8FD;
+    height:100%;
+    min-height: 650px;
+    min-width: 100%;
+   
+  
+    display:flex;
+    flex-wrap: wrap;
+   text-align:center;
+  
+    
+}
+
+.child_container{
+    position: relative;
+    top:-60px;
+    left:10%;
+    width: 100%;
+    background-color:white;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    min-height: 650px;
+    text-align:center;
+    box-shadow: 10px 10px 5px #F4F6F8;
+    z-index: 12;
+
+    
+  
+   
+}
+
+
+.textContainer{
+   
+    text-align:center;
+    margin:auto;
+    font-weight: bold;
+   
+    color:black;
+    font-size:58px;
+    
+}
+
+.typeWriter{
+    padding:0 1%  1%;
+    border-radius: 6px;
+    margin-left:2%;
+    margin-right:2%;
+    background-color:black;
+    color:white;
+    font-size:58px;
+    
+}
+.line-break{
+    display:block;
+    width: 100%;
+    min-width: 100%;
+  }
+  .login_input{
+   background-color:transparent;
+   display: inline;
+    
+   
+  }
+  .menu-div{
+    display:flex;
+    margin-top:2%;
+    padding:5%;
+    
+  }
+  .menu-div>button{
+    background-color:transparent;
+    border-radius: 6px;
+    display:inline-block;
+    border:none;
+    padding:1%;
+    width:200px;
+    font-size:18px;
+    margin-left: 2%;
+    text-align:center;
+    
+    
+
+  }
+
+  .menu-div>button:hover{
+    background-color:#F4F6F8;
+  }
+  
+  .circle{
+    display:inline-block;
+    margin-right:5%;
+    border:#19B885 solid;
+    height:10px;
+    width:10px;
+    border-radius:50%;
+    visibility:hidden;
+   
+
+  }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

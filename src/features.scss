@@ -1,0 +1,468 @@
+
+   /*mobile phones */
+   @media (min-width: 360px) and (max-width: 768px) {
+
+    .passiveWindow{
+        position: relative;
+        
+        
+        width: 100vw;
+        background-color:white;
+        border-radius: 10px ;
+      
+        min-height: 100vh;
+        text-align:left;
+        margin-bottom: 0%;
+        z-index: 10;
+        
+       
+    }
+    .coreHeading{
+        position: relative;
+        padding:6%;
+        margin:auto;
+        text-align: left;
+        font-size:26px;
+        color:black;
+        margin-top:15%;
+       
+        
+        font-weight: bold;
+    }
+    .menu{
+        display:flex;
+        
+        padding: 3%;
+        position: absolute;
+        margin-top:1%;
+    
+    }
+    
+    .menu>button{
+        display: inline-block;
+        background-color:#F7F7F7;
+        border-radius:6px;
+        max-width:28vw;
+        color:black;
+        border:none;
+        min-height: 50px;
+        min-width: 32vw;
+        font-weight:bold;
+        text-align:left;
+        
+    }
+    .menu>button:hover{
+        background-color:black;
+        color:white;
+    }
+    
+    .pageRend{
+    
+        position: absolute;
+        margin-top:38%;
+        margin-left: 12%; 
+        margin-bottom: 0; 
+    }
+    
+    
+    @keyframes fadeIn {
+        0% { opacity: 0;
+       
+        transform: translateY(12em);
+        }
+    
+        
+    
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+      .fade-in-image { animation: fadeIn 1s; }
+      .fade-in-text { animation: fadeInText 1s;}
+    
+    
+    @keyframes fadeInText {
+        0% { opacity: 0;
+       
+        transform: translateY(-12em);
+        }
+    
+        
+    
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+    
+      .qoute_container{
+        position: absolute;
+        display: inline-flex;
+        flex-direction: column;
+        bottom:65vh;
+        left:20vw;
+       
+        
+       
+      }
+      .qoute_container>div{
+        background-color:WHITE;
+        margin-top:4%;
+        border-radius: 5px;
+        text-align: left;
+        padding:1%;
+        overflow:auto;
+        width:250px;
+        min-height:3vh;
+     
+        animation: fadeInQoute 4s;
+        
+        
+       
+        
+      }
+    
+      
+    
+    @keyframes fadeInQoute{
+        0% { opacity: 0;
+       
+        transform: translateX(2em);
+        }
+    
+        
+    
+        100% { opacity: 1; 
+           
+            transform: translateX(0em);
+        }
+      }
+
+
+   }
+
+
+    
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+
+        .passiveWindow{
+            position: relative;
+            
+            
+            width: 100vw;
+            background-color:white;
+            border-radius: 10px ;
+          
+            min-height: 100vh;
+            text-align:left;
+            margin-bottom: 0%;
+            z-index: 10;
+            
+           
+        }
+        .coreHeading{
+            position: relative;
+            padding:6%;
+            margin:auto;
+            text-align: left;
+            font-size:26px;
+            color:black;
+            margin-top:15%;
+           
+            
+            font-weight: bold;
+        }
+        .menu{
+            display:flex;
+            
+            padding: 3%;
+            position: absolute;
+            margin-top:1%;
+        
+        }
+        
+        .menu>button{
+            display: inline-block;
+            background-color:#F7F7F7;
+            border-radius:6px;
+            max-width:28vw;
+            color:black;
+            border:none;
+            min-height: 50px;
+            min-width: 32vw;
+            font-weight:bold;
+            text-align:left;
+            
+        }
+        .menu>button:hover{
+            background-color:black;
+            color:white;
+        }
+        
+        .pageRend{
+        
+            position: absolute;
+            margin-top:38%;
+            margin-left: 12%; 
+            margin-bottom: 0; 
+        }
+        
+        
+        @keyframes fadeIn {
+            0% { opacity: 0;
+           
+            transform: translateY(12em);
+            }
+        
+            
+        
+            100% { opacity: 1; 
+               
+                transform: translateY(0em);
+            }
+          }
+          .fade-in-image { animation: fadeIn 1s; }
+          .fade-in-text { animation: fadeInText 1s;}
+        
+        
+        @keyframes fadeInText {
+            0% { opacity: 0;
+           
+            transform: translateY(-12em);
+            }
+        
+            
+        
+            100% { opacity: 1; 
+               
+                transform: translateY(0em);
+            }
+          }
+        
+          .qoute_container{
+            position: absolute;
+            display: inline-flex;
+            flex-direction: column;
+            bottom:490px;
+            left:50vw;
+           
+            
+           
+          }
+          .qoute_container>div{
+            background-color:WHITE;
+            margin-top:4%;
+            border-radius: 5px;
+            text-align: left;
+            padding:1%;
+            overflow:auto;
+            width:250px;
+            min-height:50px;
+            box-shadow: 5px 5px 5px  #f3f4f6;
+            animation: fadeInQoute 4s;
+            
+            
+           
+            
+          }
+        
+          
+        
+        @keyframes fadeInQoute{
+            0% { opacity: 0;
+           
+            transform: translateX(2em);
+            }
+        
+            
+        
+            100% { opacity: 1; 
+               
+                transform: translateX(0em);
+            }
+          }
+        
+        
+        
+        
+        
+    
+       }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*windows devices*/
+@media only  screen and  (min-width:992px) {
+
+
+    .passiveWindow{
+        position: relative;
+        top:-190px;
+        
+        width: 100%;
+        background-color:white;
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px ;
+        min-height: 900px;
+        text-align:center;
+        margin-bottom: 0%;
+        z-index: 10;
+       
+    }
+    .coreHeading{
+        position: absolute;
+        padding:1%;
+        margin:auto;
+        text-align: left;
+        font-size:44px;
+        color:black;
+        margin-top:15%;
+        left:150px;
+        font-weight: bold;
+    }
+    .menu{
+        display:flex;
+        
+        margin-left:22%;
+        position: absolute;
+        margin-top:28%;
+    
+    }
+    
+    .menu>button{
+        display: inline-block;
+        background-color:#F7F7F7;
+        border-radius: 25px;
+        width:250px;
+        color:black;
+        border:none;
+        min-height: 50px;
+        min-width: 280px;
+        font-weight:bold;
+        
+    }
+    .menu>button:hover{
+        background-color:black;
+        color:white;
+    }
+    
+    .pageRend{
+    
+        position: absolute;
+        margin-top:38%;
+        margin-left: 12%; 
+        margin-bottom: 0; 
+    }
+    
+    
+    @keyframes fadeIn {
+        0% { opacity: 0;
+       
+        transform: translateY(12em);
+        }
+    
+        
+    
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+      .fade-in-image { animation: fadeIn 1s; }
+      .fade-in-text { animation: fadeInText 1s;}
+    
+    
+    @keyframes fadeInText {
+        0% { opacity: 0;
+       
+        transform: translateY(-12em);
+        }
+    
+        
+    
+        100% { opacity: 1; 
+           
+            transform: translateY(0em);
+        }
+      }
+    
+      .qoute_container{
+        position: absolute;
+        display: inline-flex;
+        flex-direction: column;
+        bottom:490px;
+        left:770px;
+       
+        
+       
+      }
+      .qoute_container>div{
+        background-color:WHITE;
+        margin-top:4%;
+        border-radius: 5px;
+        text-align: left;
+        padding:1%;
+        overflow:auto;
+        width:250px;
+        min-height:50px;
+        box-shadow: 5px 5px 5px  #f3f4f6;
+        animation: fadeInQoute 4s;
+        
+        
+       
+        
+      }
+    
+      
+    
+    @keyframes fadeInQoute{
+        0% { opacity: 0;
+       
+        transform: translateX(2em);
+        }
+    
+        
+    
+        100% { opacity: 1; 
+           
+            transform: translateX(0em);
+        }
+      }
+    
+    
+    
+    
+    
+    
+}

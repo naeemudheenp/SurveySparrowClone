@@ -1,0 +1,50 @@
+
+
+
+   /*mobile phones */
+   @media (min-width: 360px) and (max-width: 768px) {
+    .pages{
+        display:block;
+        text-align: left;
+        justify-content: left;
+        padding:4%;
+        margin:auto;
+        width:80vw;
+        font-size:14px
+   }
+
+   .deviceFrame{
+  display: none;
+  margin-bottom:1%
+   }
+   
+
+
+   }
+
+
+
+
+
+
+
+
+   
+
+   /*windows devices*/
+  @media only  screen and  (min-width:992px) {
+    .pages{
+         display: inline-block;
+         text-align: left;
+         justify-content: left;
+         padding:8%;
+         margin:auto;
+         width:50%;
+         font-size:19px
+    }
+    .deviceFrame{
+        margin-bottom:4%
+    }
+   
+
+  }

@@ -1,0 +1,12 @@
+@media (min-width: 360px) and (max-width: 768px) {
+    .images{
+        height: 95px;
+    }
+}
+
+   /*Tablet Devices */
+   @media (min-width: 769px) and (max-width: 991px) {
+    .images{
+        height: 250px;
+    }
+}
